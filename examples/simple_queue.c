@@ -1,3 +1,13 @@
+/*
+ * 
+ * Author: Aaryan D.
+ *
+ * Demonstrate a simple queue in C using a linked list.
+ * 
+ */
+
+
+
 #include<stdio.h>
 #include<stdlib.h>
 
