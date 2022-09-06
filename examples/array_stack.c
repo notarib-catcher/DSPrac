@@ -1,9 +1,20 @@
+/*
+ * 
+ * Author: Aaryan D.
+ *
+ * Demonstrate a stack implemented as a array.
+ * 
+ */
+
+
 #include <stdio.h>
 
 #define MAXSTACKSIZE 100
 
 int stk[MAXSTACKSIZE];
 int stk_top = -1;
+
+// Checks for empty and full stacks -> This is a stack of fized size and needs both of these
 
 int isEmpty(){
     
@@ -23,6 +34,8 @@ int isFull(){
 
     return 0;
 }
+
+// Your usual stack manipulation/access functions: push, pop and peek
 
 void push(int data){
     
@@ -52,6 +65,14 @@ int peek(){
     
     return stk[stk_top];
 }
+
+/*
+
+this is a test function!
+
+it takes 3 user inputs, adds them to the stack and then removes them from the stack. its that simple. Feel free to use the above methods as you like :D
+
+*/
 
 void main(){
     int inp1 = 0, inp2 = 0, inp3 = 0;
