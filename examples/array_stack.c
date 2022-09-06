@@ -14,7 +14,7 @@
 int stk[MAXSTACKSIZE];
 int stk_top = -1;
 
-// Checks for empty and full stacks -> This is a stack of fized size and needs both of these
+// Checks for empty and full stack -> This is a stack of fized size and needs both of these
 
 int isEmpty(){
     
