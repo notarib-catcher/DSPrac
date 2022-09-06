@@ -24,7 +24,7 @@ struct stack_metadata {
 typedef struct stack_metadata STKDAT;
 
 
-// Your usual stack manipulation functions: push and pop
+// Your usual stack manipulation/access functions: push, pop and peek
 
 
 void push(STKDAT* _stkdat, int _dat){
@@ -50,6 +50,29 @@ int pop(STKDAT* _stkdat){
     return _ret;
 
 }
+
+int peek(STKDAT* _stkdat){
+
+    if((_stkdat -> top_elem) == NULL){
+        return 0;
+    }
+
+    return (_stkdat -> top_elem) -> data;
+}
+
+// Returns 1 if the stack is empty, 0 if not -> Purpose is pretty self explanatory. :D
+
+int isEmpty(STKDAT* _stkdat){
+
+    if ((_stkdat -> top_elem) == NULL){
+        return 1;
+    }
+
+    return 0;
+    
+}
+
+// Safely create a new stack and initialize the top element to a null pointer. This stack is fine to use with the rest of the functions above.
 
 STKDAT make_new_stack(){
 
