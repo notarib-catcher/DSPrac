@@ -106,7 +106,7 @@ void main(){
     op2 = pop(&s1);
     op3 = pop(&s1);   
 
-    //Test that it doesn't bug out if the queue is empty
+    //Test that it doesn't bug out if the stack is empty
     op4 = pop(&s1); //will be zero
 
     
