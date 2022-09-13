@@ -2,7 +2,7 @@
  * 
  * Author: Aaryan D.
  *
- * Demonstrate a stack implemented as a array.
+ * Demonstrate a stack implemented as an array.
  * 
  */
 
@@ -70,7 +70,7 @@ int peek(){
 
 this is a test function!
 
-it takes 3 user inputs, adds them to the stack and then removes them from the stack. its that simple. Feel free to use the above methods as you like :D
+it takes 3 user inputs, adds them to the stack and then removes them from the stack. its that simple. Feel free to use the above functions as you like :D
 
 */
 
